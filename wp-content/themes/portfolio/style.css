@@ -1,0 +1,99 @@
+/*
+Theme Name: Portfolio
+*/
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+    background-color: #CCC;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #F60;
+    width: 100%;
+}
+
+h1{
+    display: none;
+}
+
+h2{
+    margin-left: 7.5%;
+}
+
+p{
+    margin-left: 7.5%;
+}
+
+.blocks-gallery-grid{
+    padding: 5%;
+}
+
+.wp-block-cover{
+    background: grey;
+    position: relative;
+    /* top: -40px; */
+    
+}
+
+.banner{
+    margin-bottom: 50px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.bannerProject{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.has-text-align-center{
+    margin-left: 0;
+}
+.wp-block-cover h2{
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul li{
+    background: red;
+}
+
+img:hover{
+    display: none;
+}
+
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+ul.menu {
+    display: flex;
+    flex-direction: row;
+    background: black;
+}
+
+.menu li{
+    list-style: none;
+}
+
+footer{
+    background: navy;
+}
+
+ul .nav{
+    position: fixed;
+}
